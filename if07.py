@@ -1,13 +1,13 @@
 def main(a):
     if a%2>0:
         return "positive odd number"
-    if (a+1)%2>0:
+    elif (a+1)%2>0:
         return "positive even number"
-    if a%2<0:
+    elif a%2<0:
         return "positive odd number"
-    if (a+1)%2<0:
+    elif (a+1)%2<0:
         return "positive even number"
-    if a==0:
+    else a==0:
         return "the number is zero"
     
     
