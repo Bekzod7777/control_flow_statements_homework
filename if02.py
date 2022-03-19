@@ -10,4 +10,3 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else decreased by 2.
     """
-    
