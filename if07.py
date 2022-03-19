@@ -1,4 +1,18 @@
 def main(a):
+    if a%2>0:
+        return "positive odd number"
+    if (a+1)%2>0:
+        return "positive even number"
+    if a%2<0:
+        return "positive odd number"
+    if (a+1)%2<0:
+        return "positive even number"
+    if a==0:
+        return "the number is zero"
+    
+    
+
+
     """
     Given an integer a, check the following conditions:
     "positive odd number",
@@ -12,4 +26,4 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    
