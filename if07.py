@@ -1,19 +1,17 @@
 def main(a):
     if a%2>0:
         return "positive odd number"
-    elif (a+1)%2>0:
+    if (a+1)%2>0:
         return "positive even number"
-    elif a%2<0:
-        return "positive odd number"
-    elif (a+1)%2<0:
-        return "positive even number"
-    else a==0:
+    if a%2<0:
+        return "negative odd number"
+    if (a+1)%2<0:
+        return "negative even number"
+    else:
         return "the number is zero"
+print(main(10))
     
-    
-
-
-    """
+"""
     Given an integer a, check the following conditions:
     "positive odd number",
     "positive even number",
@@ -25,5 +23,5 @@ def main(a):
         a: integer
     Returns:
         string: the message to print
-    """
+"""
     
