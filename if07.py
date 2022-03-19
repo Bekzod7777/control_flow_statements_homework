@@ -9,7 +9,6 @@ def main(a):
         return "negative even number"
     else:
         return "the number is zero"
-print(main(10))
     
 """
     Given an integer a, check the following conditions:
