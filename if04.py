@@ -4,13 +4,13 @@ from re import S
 def main(a,b,c):
     s=0
     if a>0:
-        return s+1
-    elif b>0:
-        return s+1
-    elif c>0:
-        return s+1
-    else:
-        return s
+        s=s+1
+    if b>0:
+        s=s+1
+    if c>0:
+        s=s+1
+    return s
+
     """
     Find how many positive numbers there are in the given numbers.
     Args:
