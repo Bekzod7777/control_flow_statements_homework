@@ -1,21 +1,16 @@
 def main(a,b,c):
-    s=0
-    k=0
-    if a>0:
-        s=s+1
-    if b>0:
-        s=s+1
-    if c>0:
-        s=s+1
-    if a<0:
-        k=k+1
-    if b<0:
-        k=k+1
-    if c<0:
-        k=k+1
-    return s,k
     
-    
+    if a>0 and b>0 and c>0:
+        return "there are a lot of positive numbers"
+    elif a>0 and b>0 and c<0:
+        return "there are a lot of positive numbers"
+    elif a>0 and b<0 and c>0:
+        return "there are a lot of positive numbers"
+    elif a<0 and b>0 and c>0:
+        return "there are a lot of positive numbers"
+    else:
+        return "there are a lot of negative numbers"
+        
     """
     Find how many positive and how many negative numbers there are in the given numbers.
     check the following conditions:
@@ -26,8 +21,9 @@ def main(a,b,c):
         a: first number
         b: second number
         c: third number
+     if (a>0 and b>0 and c>0) or   
 
     Returns:
         string: string with the result
     """
-    
+    return
